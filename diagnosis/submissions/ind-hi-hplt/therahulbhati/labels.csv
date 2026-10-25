@@ -47,7 +47,7 @@ e0ec0553a96913a8,partial,clean,,none found,,"no disease found in head, tail and 
 e914970b471c9358,partial,clean,,none found,,"no disease found in head, tail and automated scans"
 ba46f050779683f6,partial,fix,C1,"boilerplate ""कोई टिप्पणी नहीं"" at 12501; ""एक टिप्पणी भेजें"" at 12519",,blog comment footer
 f0870f4a99612b98,partial,drop,D4,digits split by spaces at offset 9994,,MT of a programming Q&A
-ad807ec042dcf55c,partial,fix,C1;A6,"boilerplate ""ReplyDelete"" at 8743; ""ReplyDelete"" at 8944 | Devanagari glued to Latin letters at offset 8743",8743:U+0065 U+0906,"comment section ""ReplyDelete"" glued to text"
+ad807ec042dcf55c,partial,fix,C1;A6,"boilerplate ""ReplyDelete"" at 8743; ""ReplyDelete"" at 8944 | Devanagari glued to Latin letters at offset 8743",8753:U+0065 U+0906,"comment section ""ReplyDelete"" glued to text"
 03bc7169014c8b1e,partial,clean,,none found,,"no disease found in head, tail and automated scans"
 3d6eb9299f7584d3,partial,fix,C1,"reader comments block (names, dates) starts at offset 15604",,reader comments with names and dates at end
 241c072de9eaf85b,partial,clean,,none found,,"no disease found in head, tail and automated scans"
@@ -125,7 +125,7 @@ f354bfb12ee6b856,partial,clean,,none found,,"no disease found in head, tail and 
 c3e124057f6f2980,partial,clean,,none found,,"no disease found in head, tail and automated scans"
 24f72a3e017b4259,partial,drop,D2;C3;C5,"romanised Hindi at offset 440,444,751",,"tag page snippet, ends ""…"""
 1c76d700f03c72c3,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-e9245802d6596af1,partial,drop,C4;A6;C1,"Devanagari glued to Latin letters at offset 401,836,1263 | boilerplate ""Read More"" at 396; ""Read More"" at 831; ""Read More"" at 1258",401:U+0065 U+0926; 836:U+0065 U+092A; 1263:U+0065 U+092E,"category page; ""Read More"" glued to text"
+e9245802d6596af1,partial,drop,C4;A6;C1,"Devanagari glued to Latin letters at offset 401,836,1263 | boilerplate ""Read More"" at 396; ""Read More"" at 831; ""Read More"" at 1258",404:U+0065 U+0926; 839:U+0065 U+092A; 1266:U+0065 U+092E,"category page; ""Read More"" glued to text"
 102d804b788fd991,partial,fix,C1,"e-paper promo ""आप जयपुर की ताजा खबरें"" starts at offset 1066",,e-paper promo at end
 e921308c49c7a71f,partial,clean,D3,"English word ""Agro"" at offset 0",,
 66d261af3e6d9ad7,partial,fix,C1;D3,"boilerplate ""(For more news"" at 1140 | English word ""Gold"" at offset 78",,news-agency footer
