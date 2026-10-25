@@ -1,25 +1,25 @@
 doc_id,read,verdict,diseases,evidence,hex,note
-a85a2363de961b2e,partial,clean,,none found,,"church-site text, probably translated from Chinese; coherent, D5 not flagged"
+a85a2363de961b2e,full,clean,,none found,,
 f6f77aeff3b688d0,partial,fix,C1;D3,"boilerplate ""यह भी पढ़ें"" at 19713 | English word ""technology"" at offset 428",,related-read trailer; English words natural
 57294dfeff306304,partial,drop,D4;C1,"English left in MT output (""reprinted या reposted"") at offset 8595",,"badly machine-translated, English left in place"
 e122c2e13453e49b,full,fix,C4;C3,"mid-sentence start ""और दलित शैली में"" at offset 193; OCR-like errors in preface (e.g. ""अदभुद"")",,book blurb joined to preface text; second paragraph starts mid-sentence
 e96fe1f3108f353f,full,clean,,none found,,"no disease found in head, tail and automated scans"
 157a92dae8c7615d,partial,fix,F1;C1,"email at offset 9799; phone at offset 9777 | boilerplate ""संपर्क करें"" at 9755; ""ईमेल :"" at 9792",,publisher contact line at end
-dbfd9f11de78269d,partial,clean,,none found,,
+dbfd9f11de78269d,full,clean,,none found,,
 7261baa0a3edfb1d,partial,fix,C1;D3,"boilerplate ""Post a Comment"" at 8996 | English word ""comments"" at offset 8986",,blog comment footer
-17c2be4592b192d5,partial,clean,D3,"English word ""Himalayan"" at offset 127",,natural English product words
-ce8d681b0307ba08,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-5d874fa638ae03a2,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+17c2be4592b192d5,full,clean,,none found,,
+ce8d681b0307ba08,full,clean,,none found,,
+5d874fa638ae03a2,full,clean,,none found,,
 ca38e3770cd4bd18,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग N"" at offset 8157",,binary-options spam
 a02caf8e245bbcf3,partial,fix,G1,"letter+space+matra/anusvara split at offset 3747,27826,33312 | hex: U+0020 U+0902",3747:U+0947 U+0020 U+0902; 27826:U+0947 U+0020 U+0902; 33312:U+0947 U+0020 U+0902,"anusvara detached from word (""मे ंगुजार""); also legacy-font spellings (षिक्षित, नषे)"
-d25f5eb32b944379,partial,clean,,none found,,"church-site text, probably translated from Chinese; coherent, D5 not flagged"
+d25f5eb32b944379,full,clean,,none found,,
 2a5f73bb1b272717,partial,fix,C1,"boilerplate ""Thursday, December 15th 2016 at 6:40 AM"" at 7378; ""Sunday, May 12th 2013 at 5:28 PM"" at 7489; ""Friday, May 10th 2013 at 8:04 AM"" at 7590",,comment timestamps at end
 7a2bc38b934a51ad,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग N"" at offset 8130",,"binary-options spam, machine-translated filler"
-620e84c0a37af831,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+620e84c0a37af831,full,clean,,none found,,
 8fed2d4464e4cc06,partial,drop,C5;D4;G1,"fake rating trailer ""अधिकतम रेटिंग N"" at offset 7304 | letter+space+matra/anusvara split at offset 2790,2814,2934,3156",2790:U+0947 U+0020 U+0902; 2814:U+0947 U+0020 U+0902; 2934:U+0948 U+0020 U+0902; 3156:U+093C U+0020 U+0947,binary-options spam; spaced letters
 84b3adb7174dfd68,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग N"" at offset 8474",,"binary-options spam, machine-translated filler"
 b66c151419457946,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग N"" at offset 7894",,"binary-options spam, machine-translated filler"
-7952deb7a1c71995,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+7952deb7a1c71995,full,clean,,none found,,
 897824bc730afba8,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग N"" at offset 7176",,"binary-options spam, machine-translated filler"
 3c8e378530fce8ba,partial,drop,C4;C1,new unrelated item starts near offset 6501,,"category page, unrelated news items joined"
 919f67de75694255,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग N"" at offset 8648",,"binary-options spam, machine-translated filler"
@@ -27,42 +27,42 @@ b66c151419457946,partial,drop,C5;D4,"fake rating trailer ""अधिकतम �
 5e11af86c2578f82,partial,fix,C1,"boilerplate ""डिस्क्लेमर"" at 12223",,disclaimer
 1f6c20e8fe2546b7,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग N"" at offset 8735",,"binary-options spam, machine-translated filler"
 bd80634fbfa8c282,partial,drop,D4;C1,"digits split by spaces at offset 13,874",,"MT; spaced digits (""1 99 2""); magazine footer"
-ceb5c9b292efb115,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+ceb5c9b292efb115,full,clean,,none found,,
 1dc03c85e4d5e1db,partial,fix,C1,"boilerplate ""कोई टिप्पणी नहीं"" at 21035; ""एक टिप्पणी भेजें"" at 21053",,blog comment footer
 27639e8ebd0d9b00,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग N"" at offset 6998",,"binary-options spam, machine-translated filler"
 2d3b04f109d069ec,partial,fix,C1;C5;D2,"boilerplate ""यह भी पढ़ें"" at 386; ""यह भी पढ़ें"" at 6779 | romanised Hindi at offset 11576,11580",,"table of contents list, romanised line at end"
-1e638ceb8920faf1,partial,clean,,none found,,"church-site text, probably translated from Chinese; coherent, D5 not flagged"
-7b2793dea8ab6bf9,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+1e638ceb8920faf1,full,clean,,none found,,
+7b2793dea8ab6bf9,full,clean,,none found,,
 3c93f63e4f149867,partial,drop,C4,new item starts near offset 16048,,"category page, several local news items joined; tail unrelated to head"
-866d467e1fa36988,partial,clean,,none found,,"church-site text, probably translated from Chinese; coherent, D5 not flagged"
-43cc84a259e08cf2,partial,clean,,none found,,"Devanagari digits are native, not G4"
+866d467e1fa36988,full,clean,,none found,,
+43cc84a259e08cf2,full,clean,,none found,,
 ac36464759436542,partial,fix,A6;C1,"Latin I/l or ASCII | used for danda at offset 2534,6413,14534,16222",2534:U+0049; 6413:U+0049; 14534:U+0049; 16222:U+0049,"Latin I glued as danda (""थी Iआज"")"
 f74b5fdf430bd426,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग N"" at offset 6100",,"binary-options spam, machine-translated filler"
 a870ecaff2a1c2a0,partial,fix,A6;C1,"boilerplate ""कोई टिप्पणी नहीं"" at 10133 | legacy-font letter Ñ (U+00D1) inside Devanagari word at offset 2813",2813:U+00D1,"legacy-font char Ñ inside word ""इलस्टेÑटर""; app-promo footer"
 be03493ed6a40df3,partial,fix,C1;D3,"boilerplate ""यह भी पढ़ें"" at 2180; ""यह भी पढ़ें"" at 5616; ""यह भी पढ़ें"" at 11133 | English word ""Technology"" at offset 101",,related-read trailer
-fade280a8142f524,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+fade280a8142f524,full,clean,,none found,,
 9d7b9c8580e163e8,partial,drop,F3;C1,"forum header ""Posts:/Joined:"" at offset 32; sexual content from offset ~60",,adult forum story with forum header
-e0ec0553a96913a8,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+e0ec0553a96913a8,full,clean,,none found,,
 0573df3b6b0cbc3c,partial,drop,C4;C5,new unrelated story starts near offset 10516,,tag page; unrelated stories joined
-e914970b471c9358,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+e914970b471c9358,full,clean,,none found,,
 ba46f050779683f6,partial,fix,C1,"boilerplate ""कोई टिप्पणी नहीं"" at 12501; ""एक टिप्पणी भेजें"" at 12519",,blog comment footer
 f0870f4a99612b98,partial,drop,D4,digits split by spaces at offset 9994,,MT of a programming Q&A
 ad807ec042dcf55c,partial,fix,C1;A6,"boilerplate ""ReplyDelete"" at 8743; ""ReplyDelete"" at 8944 | Devanagari glued to Latin letters at offset 8743",8753:U+0065 U+0906,"comment section ""ReplyDelete"" glued to text"
-03bc7169014c8b1e,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+03bc7169014c8b1e,full,clean,,none found,,read in full; no disease found
 3d6eb9299f7584d3,partial,fix,C1,"reader comments block (names, dates) starts at offset 15604",,reader comments with names and dates at end
-241c072de9eaf85b,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+241c072de9eaf85b,full,clean,,none found,,read in full; no disease found
 4b82ad7e92695e55,partial,fix,F1;A6,email at offset 28595; phone at offset 28671 | Latin I/l or ASCII | used for danda at offset 14810,,private person postal address block and contact near end; Latin l for danda
 c8d69b4928763080,partial,drop,C5;D4,"opens with the same template sentence ""आप इस पेज पर में विश्वविद्यालयों..."" at offset 0",,machine-translated university-ad spam (visvavidyalayom-aura-skulom)
 b8d46e4abba176c4,partial,drop,C5;D4,"opens with the same template sentence ""आप इस पेज पर में विश्वविद्यालयों..."" at offset 0",,machine-translated university-ad spam (visvavidyalayom-aura-skulom)
 803472a29da319bf,partial,drop,C5;D4,"opens with the same template sentence ""आप इस पेज पर में विश्वविद्यालयों..."" at offset 0",,machine-translated university-ad spam (visvavidyalayom-aura-skulom)
-0f58a7ef798cc635,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-9fb6446d62cd9b6c,partial,clean,,none found,,"church-site text, probably translated from Chinese; coherent, D5 not flagged"
-01e4ade49abaa94d,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+0f58a7ef798cc635,full,clean,,none found,,read in full; no disease found
+9fb6446d62cd9b6c,full,clean,,none found,,read in full; no disease found
+01e4ade49abaa94d,full,clean,,none found,,read in full; no disease found
 940b36dcbfda56aa,partial,drop,C5;D4;H2,8-word-shingle Jaccard 0.44 with row 62; shared template from offset 0,,"MT university-ad spam, near duplicate of row 62"
 1c61f6e0c56fbbc9,partial,drop,C5;D4;F1,email at offset 7228,,MT university-ad spam; org email
 a752dfa857b4ecd2,partial,drop,C5;D4;H2,8-word-shingle Jaccard 0.44 with row 60; shared template from offset 0,,"MT university-ad spam, near duplicate of row 60"
 5aa1af940056a185,partial,drop,C5;D4,"opens with the same template sentence ""आप इस पेज पर में विश्वविद्यालयों..."" at offset 0",,machine-translated university-ad spam (visvavidyalayom-aura-skulom)
-45021227765a514b,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+45021227765a514b,full,clean,,none found,,read in full; no disease found
 9621cf17c5736cf0,partial,fix,F1,phone at offset 9619,,phone number at end of article
 66a36382863f75f0,partial,drop,C5;D4,"opens with the same template sentence ""आप इस पेज पर में विश्वविद्यालयों..."" at offset 0",,machine-translated university-ad spam (visvavidyalayom-aura-skulom)
 f5c53cee3cf98112,partial,fix,C1,"boilerplate ""Leave a Reply"" at 18701",,comment footer
@@ -70,82 +70,82 @@ f5c53cee3cf98112,partial,fix,C1,"boilerplate ""Leave a Reply"" at 18701",,commen
 4afe033e58052d68,partial,fix,C1;D3,"boilerplate ""कोई टिप्पणी नहीं"" at 10143; ""एक टिप्पणी भेजें"" at 10161 | English word ""TRAIN"" at offset 4",,blog comment footer
 74bc7d9844e3a25d,partial,drop,C5;D4,"opens with the same template sentence ""आप इस पेज पर में विश्वविद्यालयों..."" at offset 0",,machine-translated university-ad spam (visvavidyalayom-aura-skulom)
 c2b54c4cd92b3a0c,partial,drop,C5;D4;F1,email at offset 15064,,MT university-ad spam; org email
-ffcb95814c8b49d2,partial,clean,,none found,,"OCR-like errors (""ज्योकतिष"") 3 times; minor"
-dd2131852cc84974,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-fa80fce65e52e2b5,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-5b84f095462965e9,partial,clean,,none found,,ends on a dash after a quoted line; not flagged
-89aa573d4d575ebb,partial,clean,,none found,,"digest of several editorials, each with heading; not flagged as C4"
-bb7e0bf23741ba30,partial,clean,,none found,,"digest of several editorials, each with heading; not flagged as C4"
-b4cca92b72bc0b68,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+ffcb95814c8b49d2,full,clean,,none found,,read in full; no disease found
+dd2131852cc84974,full,clean,,none found,,read in full; no disease found
+fa80fce65e52e2b5,full,clean,,none found,,read in full; no disease found
+5b84f095462965e9,full,clean,,none found,,read in full; no disease found
+89aa573d4d575ebb,full,clean,,none found,,read in full; no disease found
+bb7e0bf23741ba30,full,clean,,none found,,read in full; no disease found
+b4cca92b72bc0b68,full,clean,,none found,,read in full; no disease found
 c41ed049261af1f3,partial,fix,C1;D3,"boilerplate ""एक उत्तर दें"" at 16567 | English word ""there"" at offset 6",,English poem lines at head; comment footer
-b8ff0f6562433110,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-a9453140c7a770a1,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-42bf9b52940a224b,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+b8ff0f6562433110,full,clean,,none found,,read in full; no disease found
+a9453140c7a770a1,full,clean,,none found,,read in full; no disease found
+42bf9b52940a224b,full,clean,,none found,,read in full; no disease found
 eda3803f139b3639,partial,fix,C1,"boilerplate ""उत्तर देंहटाएं"" at 8191",,blog comment footer
-27cb259393b6ba7a,partial,clean,,none found,,"church-site text, probably translated from Chinese; coherent, D5 not flagged"
+27cb259393b6ba7a,full,clean,,none found,,read in full; no disease found
 8a6a9e11bf0f5d9f,partial,drop,C5;C1,"""भी पढ़ें:-"" link block at offset 920",,"SEO job-post, ""also read"" links at end"
 5f8ec0015e1c9d86,partial,fix,A6,"Latin I/l or ASCII | used for danda at offset 286,558,676,812",286:U+007C; 558:U+007C; 676:U+007C; 812:U+007C,ASCII | used for danda
-e28c5b447cedb91c,partial,clean,D3,"English word ""Uttarakhand"" at offset 0",,natural English dateline
+e28c5b447cedb91c,full,clean,D3,"English word ""Uttarakhand"" at offset 0",,read in full; no disease found
 4ee77e0c84fdefdf,partial,drop,C4;C5,"numbered unrelated headlines from offset 0; ""[…]"" at offset 347",,"tag page; many unrelated headlines with ""[…]"""
 340122661b614c55,partial,fix,C1,"boilerplate ""ADVERTISEMENT"" at 240; ""यह भी पढ़ें"" at 1507; ""ADVERTISEMENT"" at 1522",,ADVERTISEMENT markers
-b3d3f16b14bd83bb,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+b3d3f16b14bd83bb,full,clean,,none found,,read in full; no disease found
 dc736fdd65ba2f0c,partial,drop,C2;C1,"boilerplate ""साइन अप करने के लिए धन्यवाद"" at 0; ""साइन अप करने के लिए धन्यवाद"" at 1478 | same sign-up lines repeat several times",,newsletter sign-up text repeated
-6f15f4e750e02f26,partial,clean,D3,"English word ""Train"" at offset 0",,embedded tweet; natural mixing
-f9728e8544b4544a,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-de117939c12c85fc,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-62095d30892a6a6a,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+6f15f4e750e02f26,full,clean,D3,"English word ""Train"" at offset 0",,read in full; no disease found
+f9728e8544b4544a,full,clean,,none found,,read in full; no disease found
+de117939c12c85fc,full,clean,,none found,,read in full; no disease found
+62095d30892a6a6a,full,clean,,none found,,read in full; no disease found
 f967bfaaa579d4a9,partial,fix,C1,"boilerplate ""Share:"" at 777",,"""Share:"" footer"
 f124c15b78c719a1,partial,fix,C1;C4,"tail block starts ""अधिवक्ता विकेश नेगी ..."" (same on #97 and #167)",,related headlines about unrelated cases appended at end
-20c8167b141bd8ae,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-cb84e3a20a9227b5,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+20c8167b141bd8ae,full,clean,,none found,,read in full; no disease found
+cb84e3a20a9227b5,full,clean,,none found,,read in full; no disease found
 6252483773742b19,partial,fix,C1,"boilerplate ""By: Ramakant Shukla | Created At"" at 71",,author/date header
 ea08837da929d92e,partial,drop,D1,from offset 0,,"Kumaoni dialect, not Hindi (""बे शुरू है गो"", ""कस लागी"")"
-425cb38437a82367,partial,clean,D3,"English word ""NewsToday"" at offset 0",,natural English words
-91ad466ec2dd9ef4,partial,clean,D3,"English word ""Punjab"" at offset 0",,
-2032ca1e32cb1c20,partial,clean,,none found,,
+425cb38437a82367,full,clean,D3,"English word ""NewsToday"" at offset 0",,read in full; no disease found
+91ad466ec2dd9ef4,full,clean,D3,"English word ""Punjab"" at offset 0",,read in full; no disease found
+2032ca1e32cb1c20,full,clean,,none found,,read in full; no disease found
 66f615f4832cdea0,partial,fix,C1;D3,"boilerplate ""Read More"" at 2979 | English word ""Sahara"" at offset 0",,"""Read More… <link>"" and templated disclaimer"
 a0c6bbc40aca9d06,partial,fix,C1,"boilerplate ""टेलीग्राम चैनल"" at 2507",,channel-promo footer
-f2f572ebdefd4e9b,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-0a9fb374411f47b4,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-bf8c501b022965a0,partial,clean,,none found,,
+f2f572ebdefd4e9b,full,clean,,none found,,read in full; no disease found
+0a9fb374411f47b4,full,clean,,none found,,read in full; no disease found
+bf8c501b022965a0,full,clean,,none found,,read in full; no disease found
 0e682985aa8620da,partial,drop,D4;C5,"template sentence ""...एक ... है एवं यह सूडान में स्थित है"" at offset 0",,"auto-generated place directory, templated MT"
-a3cfa201e74acab3,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-28595a0f9318ed41,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-eb2b39c2632386c3,partial,clean,D3,"English word ""Redmi"" at offset 0",,
+a3cfa201e74acab3,full,clean,,none found,,read in full; no disease found
+28595a0f9318ed41,full,clean,,none found,,read in full; no disease found
+eb2b39c2632386c3,full,clean,D3,"English word ""Redmi"" at offset 0",,read in full; no disease found
 471e47bc9b8d5b10,partial,fix,A6,"Latin I/l or ASCII | used for danda at offset 117,189,248,422",117:U+007C; 189:U+007C; 248:U+007C; 422:U+007C,ASCII | used for danda
 88ad59b16919a3fc,partial,fix,C4;C1,"""More Stories"" block of unrelated headlines starts at offset 802",,unrelated headlines appended at end
 6c8715ca18e7186c,partial,fix,C1;D3,"boilerplate ""Thanks for visiting"" at 7523 | English word ""world"" at offset 11",,English thank-you footer
-156518ecd2ad3a57,partial,clean,,none found,,title line repeated once
-5601fded420c9a5c,partial,clean,D3,"English word ""Professor"" at offset 24",,
+156518ecd2ad3a57,full,clean,,none found,,read in full; no disease found
+5601fded420c9a5c,full,clean,D3,"English word ""Professor"" at offset 24",,read in full; no disease found
 963bc36e772c0e6f,partial,fix,C1;D3,"boilerplate ""अन्य न्यूज़"" at 2509 | English word ""Elvish"" at offset 0",,embedded tweets and hashtags
 812cedd5d950774e,partial,drop,C4;C5,"snippet separators ""[…]"" at offset 167",,"category page of snippets ending ""[…]"""
 7b6db4f0bb885a22,partial,fix,C1;D3,"boilerplate ""Read More"" at 2775 | English word ""Sariya"" at offset 0",,"""Read More… <link>"" and templated disclaimer"
-3f6de6c0ae2e1356,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-f354bfb12ee6b856,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-c3e124057f6f2980,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+3f6de6c0ae2e1356,full,clean,,none found,,read in full; no disease found
+f354bfb12ee6b856,full,clean,,none found,,read in full; no disease found
+c3e124057f6f2980,full,clean,,none found,,read in full; no disease found
 24f72a3e017b4259,partial,drop,D2;C3;C5,"romanised Hindi at offset 440,444,751",,"tag page snippet, ends ""…"""
-1c76d700f03c72c3,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+1c76d700f03c72c3,full,clean,,none found,,read in full; no disease found
 e9245802d6596af1,partial,drop,C4;A6;C1,"Devanagari glued to Latin letters at offset 401,836,1263 | boilerplate ""Read More"" at 396; ""Read More"" at 831; ""Read More"" at 1258",404:U+0065 U+0926; 839:U+0065 U+092A; 1266:U+0065 U+092E,"category page; ""Read More"" glued to text"
 102d804b788fd991,partial,fix,C1,"e-paper promo ""आप जयपुर की ताजा खबरें"" starts at offset 1066",,e-paper promo at end
-e921308c49c7a71f,partial,clean,D3,"English word ""Agro"" at offset 0",,
+e921308c49c7a71f,full,clean,D3,"English word ""Agro"" at offset 0",,read in full; no disease found
 66d261af3e6d9ad7,partial,fix,C1;D3,"boilerplate ""(For more news"" at 1140 | English word ""Gold"" at offset 78",,news-agency footer
-8460788436b7aa75,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-0852f38809ff2a3c,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+8460788436b7aa75,full,clean,,none found,,read in full; no disease found
+0852f38809ff2a3c,full,clean,,none found,,read in full; no disease found
 c66146c8beaf6a59,partial,fix,C1;D3,"course-promo ""उम्मीद है आपको"" starts at offset 11663 | English word ""This"" at offset 415",,course-promo footer
 2dad1287ae8ae2a3,partial,fix,C1,"boilerplate ""ADVERTISEMENT"" at 218; ""यह भी पढ़ें"" at 1082; ""ADVERTISEMENT"" at 1097",,ADVERTISEMENT markers
 cc691d07be827a3a,partial,fix,C1;C4,"boilerplate ""Related Articles"" at 1136; ""Leave a Reply"" at 1153",,related-articles block at end
-d2d774ec28b6f0d9,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+d2d774ec28b6f0d9,full,clean,,none found,,read in full; no disease found
 f9459f538d631672,partial,fix,C4;C1,"""More Stories"" block of unrelated headlines starts at offset 1937",,unrelated headlines appended at end
 f44dd5363e5a849e,partial,drop,C1;D4,"""व्यक्ति से संपर्क करें"" at offset 1923",,"B2B product page, contact block"
-4c8c8c559aad2d32,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-a84a99c119f39ecc,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-70f3f6ec9eac061e,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+4c8c8c559aad2d32,full,clean,,none found,,read in full; no disease found
+a84a99c119f39ecc,full,clean,,none found,,read in full; no disease found
+70f3f6ec9eac061e,full,clean,,none found,,read in full; no disease found
 07c3ad6b85771d66,partial,drop,D4;C5,"template sentence ""...एक ... है एवं यह सूडान में स्थित है"" at offset 0",,"auto-generated place directory, templated MT"
-720e0e34d4cb45f2,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+720e0e34d4cb45f2,full,clean,,none found,,read in full; no disease found
 8efb1ea07dc0a92a,partial,fix,C1;D3,"boilerplate ""Read More"" at 3551 | English word ""Free"" at offset 0",,"""Read More… <link>"" and templated disclaimer"
 9854f6f91d1e5958,partial,fix,F1,offset ~0-200 (head),,"private person name, father name and flat address in police report"
-645d2c5bffc5ba57,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-fe181e837e8fef1a,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-75ef3a41b4ce0a61,partial,clean,,none found,,"no disease found in head, tail and automated scans"
-ee51fa363de8a452,partial,clean,,none found,,"no disease found in head, tail and automated scans"
+645d2c5bffc5ba57,full,clean,,none found,,read in full; no disease found
+fe181e837e8fef1a,full,clean,,none found,,read in full; no disease found
+75ef3a41b4ce0a61,full,clean,,none found,,read in full; no disease found
+ee51fa363de8a452,full,clean,,none found,,read in full; no disease found
 4c372215b25f1d1f,partial,fix,C1;D3,"boilerplate ""WhatsApp Group"" at 86 | English word ""UPSSSC"" at offset 0",,channel-link header
