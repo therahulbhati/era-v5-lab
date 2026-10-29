@@ -3,7 +3,7 @@ a85a2363de961b2e,full,clean,,none found,,
 f6f77aeff3b688d0,partial,fix,C1;D3,"boilerplate ""यह भी पढ़ें"" at 19713 | English word ""technology"" at offset 428",,related-read trailer; English words natural
 57294dfeff306304,partial,drop,D4;C1,"English left in MT output (""reprinted या reposted"") at offset 8595",,"badly machine-translated, English left in place"
 e122c2e13453e49b,full,fix,C4;C3,"mid-sentence start ""और दलित शैली में"" at offset 193; OCR-like errors in preface (e.g. ""अदभुद"")",,book blurb joined to preface text; second paragraph starts mid-sentence
-e96fe1f3108f353f,full,clean,,none found,,"no disease found in head, tail and automated scans"
+e96fe1f3108f353f,full,clean,,none found,,read in full; no disease found
 157a92dae8c7615d,partial,fix,F1;C1,"email at offset 9799; phone at offset 9777 | boilerplate ""संपर्क करें"" at 9755; ""ईमेल :"" at 9792",,publisher contact line at end
 dbfd9f11de78269d,full,clean,,none found,,
 7261baa0a3edfb1d,partial,fix,C1;D3,"boilerplate ""Post a Comment"" at 8996 | English word ""comments"" at offset 8986",,blog comment footer
