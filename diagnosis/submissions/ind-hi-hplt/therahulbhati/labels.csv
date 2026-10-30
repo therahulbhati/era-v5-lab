@@ -1,5 +1,5 @@
 doc_id,read,verdict,diseases,evidence,hex,note
-a85a2363de961b2e,full,clean,,none found,,
+a85a2363de961b2e,full,fix,D4,"D4 ""मैं अपने हृदय की गहराई से उसे धन्यवाद दिये बिना रह पाया"" at 23753",,read in full; machine-translated passages
 f6f77aeff3b688d0,partial,fix,C1;D3,"boilerplate ""यह भी पढ़ें"" at 19713 | English word ""technology"" at offset 428",,related-read trailer; English words natural
 57294dfeff306304,partial,drop,D4;C1,"English left in MT output (""reprinted या reposted"") at offset 8595",,"badly machine-translated, English left in place"
 e122c2e13453e49b,full,fix,C4;C3,"mid-sentence start ""और दलित शैली में"" at offset 193; OCR-like errors in preface (e.g. ""अदभुद"")",,book blurb joined to preface text; second paragraph starts mid-sentence
@@ -19,7 +19,7 @@ d25f5eb32b944379,full,clean,,none found,,
 8fed2d4464e4cc06,partial,drop,C5;D4;G1,"fake rating trailer ""अधिकतम रेटिंग"" at offset 7304 | letter+space+matra/anusvara split at offset 2790,2814,2934,3156",2790:U+0947 U+0020 U+0902; 2814:U+0947 U+0020 U+0902; 2934:U+0948 U+0020 U+0902; 3156:U+093C U+0020 U+0947,binary-options spam; spaced letters
 84b3adb7174dfd68,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग"" at offset 8474",,"binary-options spam, machine-translated filler"
 b66c151419457946,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग"" at offset 7894",,"binary-options spam, machine-translated filler"
-7952deb7a1c71995,full,clean,,none found,,
+7952deb7a1c71995,full,fix,A6,"A6 ""है|"" at 8244 | A6 ""था|"" at 8830 | A6 ""लिया|"" at 9074",8246:U+007C; 8832:U+007C; 9078:U+007C,read in full; ASCII | or Latin I typed for the danda
 897824bc730afba8,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग"" at offset 7176",,"binary-options spam, machine-translated filler"
 3c8e378530fce8ba,partial,drop,C4;C1,new unrelated item starts near offset 6501,,"category page, unrelated news items joined"
 919f67de75694255,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग"" at offset 8648",,"binary-options spam, machine-translated filler"
@@ -31,10 +31,10 @@ ceb5c9b292efb115,full,clean,,none found,,
 1dc03c85e4d5e1db,partial,fix,C1,"boilerplate ""कोई टिप्पणी नहीं"" at 21035; ""एक टिप्पणी भेजें"" at 21053",,blog comment footer
 27639e8ebd0d9b00,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग"" at offset 6998",,"binary-options spam, machine-translated filler"
 2d3b04f109d069ec,partial,fix,C1;C5;D2,"boilerplate ""यह भी पढ़ें"" at 386; ""यह भी पढ़ें"" at 6779 | romanised Hindi at offset 11576,11580",,"table of contents list, romanised line at end"
-1e638ceb8920faf1,full,clean,,none found,,
+1e638ceb8920faf1,full,fix,D4;A6,"D4 ""सिंह, ज़िराफ़ तथा हिरन की तरह से भोजन को खाते"" at 70885 | A6 ""हैI"" at 23521",23523:U+0049,read in full; machine-translated passages; ASCII | or Latin I typed for the danda
 7b2793dea8ab6bf9,full,clean,,none found,,
 3c93f63e4f149867,partial,drop,C4,new item starts near offset 16048,,"category page, several local news items joined; tail unrelated to head"
-866d467e1fa36988,full,clean,,none found,,
+866d467e1fa36988,full,fix,D4,"D4 ""बहुमूल्य रूप से थोड़ा सा ही कहा गया है"" at 19497",,read in full; machine-translated passages
 43cc84a259e08cf2,full,clean,,none found,,
 ac36464759436542,partial,fix,A6;C1,"Latin I/l or ASCII | used for danda at offset 2534,6413,14534,16222",2534:U+0049; 6413:U+0049; 14534:U+0049; 16222:U+0049,"Latin I glued as danda (""थी Iआज"")"
 f74b5fdf430bd426,partial,drop,C5;D4,"fake rating trailer ""अधिकतम रेटिंग"" at offset 6100",,"binary-options spam, machine-translated filler"
@@ -56,7 +56,7 @@ c8d69b4928763080,partial,drop,C5;D4,"opens with the same template sentence ""आ
 b8d46e4abba176c4,partial,drop,C5;D4,"opens with the same template sentence ""आप इस पेज पर में विश्वविद्यालयों..."" at offset 0",,machine-translated university-ad spam (visvavidyalayom-aura-skulom)
 803472a29da319bf,partial,drop,C5;D4,"opens with the same template sentence ""आप इस पेज पर में विश्वविद्यालयों..."" at offset 0",,machine-translated university-ad spam (visvavidyalayom-aura-skulom)
 0f58a7ef798cc635,full,clean,,none found,,read in full; no disease found
-9fb6446d62cd9b6c,full,clean,,none found,,read in full; no disease found
+9fb6446d62cd9b6c,full,fix,D4,"D4 ""ऐसी बातें करो जो परमेश्वर का अनादर करती हैं"" at 27745",,read in full; machine-translated passages
 01e4ade49abaa94d,full,clean,,none found,,read in full; no disease found
 940b36dcbfda56aa,partial,drop,C5;D4;H2,8-word-shingle Jaccard 0.44 with row 62; shared template from offset 0,,"MT university-ad spam, near duplicate of row 62"
 1c61f6e0c56fbbc9,partial,drop,C5;D4;F1,email at offset 7228,,MT university-ad spam; org email
@@ -72,17 +72,17 @@ f5c53cee3cf98112,partial,fix,C1,"boilerplate ""Leave a Reply"" at 18701",,commen
 c2b54c4cd92b3a0c,partial,drop,C5;D4;F1,email at offset 15064,,MT university-ad spam; org email
 ffcb95814c8b49d2,full,clean,,none found,,read in full; no disease found
 dd2131852cc84974,full,clean,,none found,,read in full; no disease found
-fa80fce65e52e2b5,full,clean,,none found,,read in full; no disease found
-5b84f095462965e9,full,clean,,none found,,read in full; no disease found
+fa80fce65e52e2b5,full,fix,C1;C4,"C1 ""दुनिया (4696)"" at 0 | C4 ""जकार्ता। इंडोनेशिया के सुलावेसी"" at 1728",,read in full; boilerplate line; unrelated items joined
+5b84f095462965e9,full,fix,C1,"C1 ""भारत की सोनिया कांग्रस सरकार"" at 14183",,read in full; boilerplate line
 89aa573d4d575ebb,full,clean,,none found,,read in full; no disease found
 bb7e0bf23741ba30,full,clean,,none found,,read in full; no disease found
 b4cca92b72bc0b68,full,clean,,none found,,read in full; no disease found
 c41ed049261af1f3,partial,fix,C1;D3,"boilerplate ""एक उत्तर दें"" at 16567 | English word ""there"" at offset 6",,English poem lines at head; comment footer
 b8ff0f6562433110,full,clean,,none found,,read in full; no disease found
-a9453140c7a770a1,full,clean,,none found,,read in full; no disease found
-42bf9b52940a224b,full,clean,,none found,,read in full; no disease found
+a9453140c7a770a1,full,fix,C2,"C2 ""खबर को अगर आम लोगों के बीच की आम भावनाओं में"" at 12",,read in full; repeated passage
+42bf9b52940a224b,full,fix,C1,"C1 ""-राजेश त्रिपाठी"" at 0",,read in full; boilerplate line
 eda3803f139b3639,partial,fix,C1,"boilerplate ""उत्तर देंहटाएं"" at 8191",,blog comment footer
-27cb259393b6ba7a,full,clean,,none found,,read in full; no disease found
+27cb259393b6ba7a,full,fix,D4,"D4 ""प्रकट हुआ हैहैं"" at 13167",,read in full; machine-translated passages
 8a6a9e11bf0f5d9f,partial,drop,C5;C1,"""भी पढ़ें:-"" link block at offset 920",,"SEO job-post, ""also read"" links at end"
 5f8ec0015e1c9d86,partial,fix,A6,"Latin I/l or ASCII | used for danda at offset 286,558,676,812",286:U+007C; 558:U+007C; 676:U+007C; 812:U+007C,ASCII | used for danda
 e28c5b447cedb91c,full,clean,,none found,,read in full; no disease found
@@ -90,7 +90,7 @@ e28c5b447cedb91c,full,clean,,none found,,read in full; no disease found
 340122661b614c55,partial,fix,C1,"boilerplate ""ADVERTISEMENT"" at 240; ""यह भी पढ़ें"" at 1507; ""ADVERTISEMENT"" at 1522",,ADVERTISEMENT markers
 b3d3f16b14bd83bb,full,clean,,none found,,read in full; no disease found
 dc736fdd65ba2f0c,partial,drop,C2;C1,"boilerplate ""साइन अप करने के लिए धन्यवाद"" at 0; ""साइन अप करने के लिए धन्यवाद"" at 1478 | same sign-up lines repeat several times",,newsletter sign-up text repeated
-6f15f4e750e02f26,full,clean,,none found,,read in full; no disease found
+6f15f4e750e02f26,full,fix,C1,"C1 ""pic.twitter.com"" at 3057",,read in full; boilerplate line
 f9728e8544b4544a,full,clean,,none found,,read in full; no disease found
 de117939c12c85fc,full,clean,,none found,,read in full; no disease found
 62095d30892a6a6a,full,clean,,none found,,read in full; no disease found
@@ -100,7 +100,7 @@ f124c15b78c719a1,partial,fix,C1;C4,"tail block starts ""अधिवक्ता
 cb84e3a20a9227b5,full,clean,,none found,,read in full; no disease found
 6252483773742b19,partial,fix,C1,"boilerplate ""By: Ramakant Shukla | Created At"" at 71",,author/date header
 ea08837da929d92e,partial,drop,D1,from offset 0,,"Kumaoni dialect, not Hindi (""बे शुरू है गो"", ""कस लागी"")"
-425cb38437a82367,full,clean,,none found,,read in full; no disease found
+425cb38437a82367,full,fix,C1,"C1 ""Fast News Today CM Bhajanlal Sharma"" at 267",,read in full; boilerplate line
 91ad466ec2dd9ef4,full,fix,A6,"ASCII ""*"" used as danda mid-sentence (3x): ""बरामद *"" at 57; ""की गई *"" at 394; ""ा गया *"" at 734",63:U+002A; 400:U+002A; 740:U+002A,read in full; ASCII asterisk typed where a danda belongs
 2032ca1e32cb1c20,full,clean,,none found,,read in full; no disease found
 66f615f4832cdea0,partial,fix,C1;D3,"boilerplate ""Read More"" at 2979 | English word ""Sahara"" at offset 0",,"""Read More… <link>"" and templated disclaimer"
@@ -111,11 +111,11 @@ bf8c501b022965a0,full,clean,,none found,,read in full; no disease found
 0e682985aa8620da,partial,drop,D4;C5,"template sentence ending ""है एवं यह सूडान में स्थित है"" at offset 46",,"auto-generated place directory, templated MT"
 a3cfa201e74acab3,full,clean,,none found,,read in full; no disease found
 28595a0f9318ed41,full,clean,,none found,,read in full; no disease found
-eb2b39c2632386c3,full,clean,,none found,,read in full; no disease found
+eb2b39c2632386c3,full,fix,A6,"A6 ""है |"" at 2113 | A6 ""हैं|"" at 2598",2116:U+007C; 2601:U+007C,read in full; ASCII | or Latin I typed for the danda
 471e47bc9b8d5b10,partial,fix,A6,"Latin I/l or ASCII | used for danda at offset 117,189,248,422",117:U+007C; 189:U+007C; 248:U+007C; 422:U+007C,ASCII | used for danda
 88ad59b16919a3fc,partial,fix,C4;C1,"""More Stories"" block of unrelated headlines starts at offset 802",,unrelated headlines appended at end
 6c8715ca18e7186c,partial,fix,C1;D3,"boilerplate ""Thanks for visiting"" at 7523 | English word ""world"" at offset 11",,English thank-you footer
-156518ecd2ad3a57,full,clean,,none found,,read in full; no disease found
+156518ecd2ad3a57,full,fix,C2,"C2 ""दिल्ली मेट्रो रेल कॉरपोरेशन (DMRC) के मुख्य कार्यकारी निदेशक"" at 534",,read in full; repeated passage
 5601fded420c9a5c,full,fix,B5,"stray ""*"" marker mid-sentence (5x): ""ता है *"" at 41; ""ती है *"" at 172; ""्स और *"" at 306",,read in full; stray list markers left mid-sentence
 963bc36e772c0e6f,partial,fix,C1;D3,"boilerplate ""अन्य न्यूज़"" at 2509 | English word ""Elvish"" at offset 0",,embedded tweets and hashtags
 812cedd5d950774e,partial,drop,C4;C5,"snippet separators ""[…]"" at offset 167",,"category page of snippets ending ""[…]"""
@@ -127,7 +127,7 @@ c3e124057f6f2980,full,clean,,none found,,read in full; no disease found
 1c76d700f03c72c3,full,clean,,none found,,read in full; no disease found
 e9245802d6596af1,partial,drop,C4;A6;C1,"Devanagari glued to Latin letters at offset 401,836,1263 | boilerplate ""Read More"" at 396; ""Read More"" at 831; ""Read More"" at 1258",404:U+0065 U+0926; 839:U+0065 U+092A; 1266:U+0065 U+092E,"category page; ""Read More"" glued to text"
 102d804b788fd991,partial,fix,C1,"e-paper promo ""आप जयपुर की ताजा खबरें"" starts at offset 1066",,e-paper promo at end
-e921308c49c7a71f,full,clean,,none found,,read in full; no disease found
+e921308c49c7a71f,full,fix,D4,"D4 ""स्थानिक जागरूकता के लिए अल्ट्रा-वाइडबैंड चिप"" at 1967",,read in full; machine-translated passages
 66d261af3e6d9ad7,partial,fix,C1;D3,"boilerplate ""(For more news"" at 1140 | English word ""Gold"" at offset 78",,news-agency footer
 8460788436b7aa75,full,clean,,none found,,read in full; no disease found
 0852f38809ff2a3c,full,clean,,none found,,read in full; no disease found
@@ -144,7 +144,7 @@ a84a99c119f39ecc,full,clean,,none found,,read in full; no disease found
 720e0e34d4cb45f2,full,clean,,none found,,read in full; no disease found
 8efb1ea07dc0a92a,partial,fix,C1;D3,"boilerplate ""Read More"" at 3551 | English word ""Free"" at offset 0",,"""Read More… <link>"" and templated disclaimer"
 9854f6f91d1e5958,partial,fix,F1,person name at offset 30; father name at offset 48; address at offset 64,,"private person name, father name and flat address in police report"
-645d2c5bffc5ba57,full,clean,,none found,,read in full; no disease found
+645d2c5bffc5ba57,full,fix,C1,"C1 ""pic.twitter.com"" at 933",,read in full; boilerplate line
 fe181e837e8fef1a,full,clean,,none found,,read in full; no disease found
 75ef3a41b4ce0a61,full,clean,,none found,,read in full; no disease found
 ee51fa363de8a452,full,clean,,none found,,read in full; no disease found
@@ -249,7 +249,7 @@ adab62ce109a1f5a,partial,fix,A6,"ASCII | or Latin I used for danda at offset 136
 afc9a8d55c024c37,partial,fix,C1,"boilerplate ""छवि क्रेडिट:"" at 0",,image credit line
 7132ffdcdde97772,full,clean,,none found,,read in full; no disease found
 9663e6b522266129,full,clean,,none found,,read in full; no disease found
-9cb61054002636cc,full,clean,,none found,,read in full; no disease found
+9cb61054002636cc,full,fix,C1,"C1 ""यहां देखें वीडियो"" at 933",,read in full; boilerplate line
 885b08fe71077a01,partial,fix,C1;C4,"C1 ""ये भी पढ़े…..Singapore"" at 214 | C1 ""ये भी पढ़े…..CM Bhajanlal"" at 1067 | C4 ""ये भी पढ़े….. छींक रोकने से जा सकती जान"" at 1624",,inline related-link line
 47cc4862de7d7cf4,partial,fix,C1,"boilerplate ""इन्हें भी देखें"" at 1188",,"""see also"" related links"
 578ac59aa6e6f768,partial,fix,C1,"boilerplate ""इसे भी पढ़ें"" at 1373",,related-article link
@@ -283,7 +283,7 @@ c9b8803daa50cbf2,full,clean,,none found,,read in full; no disease found
 5c34b290887ef6b4,full,clean,,none found,,read in full; no disease found
 703c5cb5b2bd7bee,partial,fix,A6,"ASCII | or Latin I used for danda at offset 1036,1111,1189,1337",1036:U+0049; 1111:U+0049; 1189:U+0049; 1337:U+0049,Latin I used as danda
 81e31d4262371aa3,partial,fix,C4,"C4 ""किसानों को मुआवजा देने की मांग"" at 690",,"unrelated local items (farmers' compensation, highway waterl"
-62df9947c03bbb97,full,clean,,none found,,read in full; no disease found
+62df9947c03bbb97,full,fix,C1,"C1 ""नवभारतटाइम्स.कॉम 30 Aug 2021, 1:06 pm"" at 72",,read in full; boilerplate line
 e988773eff0ee985,partial,drop,C4,"listing of unrelated items, second item starts at offset 272",,tag/category listing page of unrelated snippets
 baaadd637ff2175c,partial,fix,C1,"boilerplate ""Comments in this topic:"" at 1586",,comment widget
 ef3ed1ee60b1d6fd,partial,fix,A6;C1,"ASCII | or Latin I used for danda at offset 2575,2813,2982,3103 | ""Source"" credit footer at offset 3208; ""दोस्तों यह थी आज की"" closer at offset 2577",2575:U+007C; 2813:U+007C; 2982:U+007C; 3103:U+007C,ASCII | danda; templated bestrojgar footer
@@ -295,7 +295,7 @@ ef3ed1ee60b1d6fd,partial,fix,A6;C1,"ASCII | or Latin I used for danda at offset 
 8b1fafa30083f091,full,clean,,none found,,read in full; no disease found
 fc4c3c8f50b16010,full,clean,,none found,,read in full; no disease found
 8298b653e0d7e1b6,partial,fix,C1,"boilerplate ""WhatsApp Channel"" at 670; ""यह भी पढ़ें"" at 993",,promo/read-also/disclaimer lines
-6ea3c984032ae032,full,clean,,none found,,read in full; no disease found
+6ea3c984032ae032,full,fix,F1,F1 vehicle registration number at offset 251,,read in full; vehicle registration number
 e2e8c748d77ed529,partial,fix,C1,"boilerplate ""इन्हें भी देखें"" at 5022",,"""see also"" related links"
 49e94de7da5786e1,full,clean,,none found,,read in full; no disease found
 59bbbfec4d55935d,partial,fix,C2,"C2 ""Raveena was Burnt Alive"" at 89",,English title repeated as lead-in line
@@ -442,7 +442,7 @@ d97dacf9382156dd,partial,fix,A5,"A5 ""औऱ"" at 9992 | A5 ""औऱ"" at 10645"
 7887ec68ae5b75db,full,clean,,none found,,read in full; no disease found
 36d8116218d8e18a,partial,fix,F1,phone at offset 9993,,private contact detail
 fb4535fc03f5f2ff,full,clean,,none found,,read in full; no disease found
-62d86205a48d912d,full,clean,,none found,,read in full; no disease found
+62d86205a48d912d,full,fix,A6,"A6 ""था|"" at 3547",3549:U+007C,read in full; ASCII | or Latin I typed for the danda
 add6ae39f41bf0d5,partial,fix,C1,"boilerplate ""इंजेक्शन मोल्डिंग मशीनों की हमारी शुरूआत में"" at 1434",,company template paragraph shared by 4 pages of this site
 d57a4d82cdea5cb8,partial,fix,C1,"boilerplate ""इंजेक्शन मोल्डिंग मशीनों की हमारी शुरूआत में"" at 1629",,company template paragraph shared by 4 pages of this site
 d25d24050dc61c73,partial,drop,C4,"C4 ""June 2024"" at 1334",,monthly archive page: many unrelated news items joined; stra
