@@ -101,7 +101,7 @@ cb84e3a20a9227b5,full,clean,,none found,,read in full; no disease found
 6252483773742b19,partial,fix,C1,"boilerplate ""By: Ramakant Shukla | Created At"" at 71",,author/date header
 ea08837da929d92e,partial,drop,D1,from offset 0,,"Kumaoni dialect, not Hindi (""बे शुरू है गो"", ""कस लागी"")"
 425cb38437a82367,full,clean,,none found,,read in full; no disease found
-91ad466ec2dd9ef4,full,clean,,none found,,read in full; no disease found
+91ad466ec2dd9ef4,full,fix,A6,"ASCII ""*"" used as danda mid-sentence (3x): ""बरामद *"" at 57; ""की गई *"" at 394; ""ा गया *"" at 734",63:U+002A; 400:U+002A; 740:U+002A,read in full; ASCII asterisk typed where a danda belongs
 2032ca1e32cb1c20,full,clean,,none found,,read in full; no disease found
 66f615f4832cdea0,partial,fix,C1;D3,"boilerplate ""Read More"" at 2979 | English word ""Sahara"" at offset 0",,"""Read More… <link>"" and templated disclaimer"
 a0c6bbc40aca9d06,partial,fix,C1,"boilerplate ""टेलीग्राम चैनल"" at 2507",,channel-promo footer
@@ -116,7 +116,7 @@ eb2b39c2632386c3,full,clean,,none found,,read in full; no disease found
 88ad59b16919a3fc,partial,fix,C4;C1,"""More Stories"" block of unrelated headlines starts at offset 802",,unrelated headlines appended at end
 6c8715ca18e7186c,partial,fix,C1;D3,"boilerplate ""Thanks for visiting"" at 7523 | English word ""world"" at offset 11",,English thank-you footer
 156518ecd2ad3a57,full,clean,,none found,,read in full; no disease found
-5601fded420c9a5c,full,clean,,none found,,read in full; no disease found
+5601fded420c9a5c,full,fix,B5,"stray ""*"" marker mid-sentence (5x): ""ता है *"" at 41; ""ती है *"" at 172; ""्स और *"" at 306",,read in full; stray list markers left mid-sentence
 963bc36e772c0e6f,partial,fix,C1;D3,"boilerplate ""अन्य न्यूज़"" at 2509 | English word ""Elvish"" at offset 0",,embedded tweets and hashtags
 812cedd5d950774e,partial,drop,C4;C5,"snippet separators ""[…]"" at offset 167",,"category page of snippets ending ""[…]"""
 7b6db4f0bb885a22,partial,fix,C1;D3,"boilerplate ""Read More"" at 2775 | English word ""Sariya"" at offset 0",,"""Read More… <link>"" and templated disclaimer"
